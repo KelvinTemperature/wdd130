@@ -1,0 +1,58 @@
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    font: 25px sans-serif;
+    padding: 5px;
+}
+
+main {
+    max-width: 400px;
+    margin: 20px 200px 0px 200px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+picture img {
+    width: 400px;
+    height: auto;
+    /* border: 1px solid rgb(0 0 0 / 1%); */
+    box-shadow: 0 0 30px black;
+
+}
+
+section {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(3 3 3 / 2%);
+}
+
+section h2 {
+    text-align: left;
+    border-bottom: 1px solid#333;
+}
+
+section p {
+    text-align: left;
+    margin: 15px;
+}
+
+section ul {
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font: 14px sans-serif;
+}
+
+footer p {
+    padding: 7px;
+}
