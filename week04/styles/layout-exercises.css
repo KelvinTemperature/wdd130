@@ -10,6 +10,11 @@ body {
     font-size: 1.2rem;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 div {
     margin: 1rem;
     border: 1px dashed;
@@ -24,17 +29,25 @@ div {
 .flex {
     background-color: #aba;
     /* write declarations here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .grid {
     background-color: #abb;
     /* write declarations here */
+    display: grid;
+    place-items: center;
 
 }
 
 .container2 {
     /* write declarations here */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 
 }
 
@@ -45,11 +58,15 @@ div {
 
 .container3 {
     /* write declarations here */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 
 }
 
 .columns-3 {
     /* write declaration here */
+    grid-column: span 3;
 
 }
 

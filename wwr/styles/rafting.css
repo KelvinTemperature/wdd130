@@ -17,6 +17,39 @@ body {
     color: var(--accent1-color)
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav img {
+    width: 35px;
+    height: 35px;
+    margin-top: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+ul li {
+    text-decoration: none;
+    display: block;
+    /* border: 1px solid black; */
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    color: navy;
+}
+
+li a {
+    text-decoration: none;
+}
+
 header img {
     width: 150px;
     height: auto;
@@ -42,6 +75,13 @@ article {
     margin: 16px;
     padding: 8px;
 }
+
+.history {
+    display: flex;
+    flex-direction: row;
+}
+
+.history h2 {}
 
 .socialmedia a {
     text-decoration: none;
@@ -95,10 +135,4 @@ footer {
     border-top: 1px solid rgb(0 0 200 /0.3);
     text-align: center;
     margin-top: 70px;
-}
-
-nav img {
-    width: 35px;
-    height: 35px;
-    margin-top: 0;
 }
