@@ -160,6 +160,11 @@ footer {
     position: static;
     background-color: white;
     color: black;
+    margin-bottom: 0;
+}
+
+.contact-info h2 {
+    color: black;
 }
 
 .form {
