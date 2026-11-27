@@ -131,7 +131,7 @@ section h2 {
 
 .figure {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
 }
 
@@ -148,4 +148,59 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.contact-info {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+}
+
+iframe {
+    width: 420px;
+    height: 380px;
+    margin: 10px;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0.6rem;
+    font-size: 1.3rem;
+}
+
+.form button {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.employee-profile {
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.employee-profile h2 {
+    font-size: 2.2rem;
+    background-color: white;
+    color: black;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    flex: 1;
+    margin-bottom: 10px;
 }
