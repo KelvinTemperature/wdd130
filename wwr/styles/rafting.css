@@ -156,6 +156,12 @@ footer {
     text-align: center;
 }
 
+.contact-info h1 {
+    position: static;
+    background-color: white;
+    color: black;
+}
+
 .form {
     display: grid;
     grid-template-columns: 1fr 1fr;
